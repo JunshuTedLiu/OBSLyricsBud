@@ -10,15 +10,12 @@ import Cocoa
 
 class ViewController: NSViewController {
     
-    var currentSentence = ""
-    var nextSentence = ""
     var lyrics = ""
     //separate the lyrics by lines, and put them into the array.
     var lyricsArray: [String] = []
-    var filePath = ""
     
     var line = 0
-     var lines: [String] = []
+    var lines: [String] = []
     
     @IBOutlet var currentSentenceField: NSTextField!
     @IBOutlet var nextSentenceField: NSTextField!
