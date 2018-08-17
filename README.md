@@ -11,7 +11,7 @@
 
 <h2>How to Use it?</h2>
 <p>Step 1. Find the song lyrics you would like to use.</p>
-<p>Step 2. Copy these lyrics text and paste it into the text field here.</p>
+<p>Step 2. Copy these lyrics text and paste it into the app.</p>
 <p>Step 3. Apply these lyrics by pressing "apply". You will see the "Current Sentence" and "Next Sentence" session is updated.</p>
 <p>Step 4. In OBS, create a new source "Text (FreeType 2)" for your Current Sentence.</p>
 <p>Step 5. Select "Read from file".</p>
