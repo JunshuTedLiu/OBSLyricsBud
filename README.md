@@ -10,19 +10,21 @@ Live stream broadcasters, especially music lovers/singers. You need this if
 </ul>
 
 <h2>How to Use it?</h2>
-Step 1. Find the song lyrics you would like to use.
-Step 2. Copy these lyrics text and paste it into the text field here.
-Step 3. Apply these lyrics by pressing "apply". You will see the "Current Sentence" and "Next Sentence" session is updated.
-Step 4. In OBS, create a new source "Text (FreeType 2)" for your Current Sentence.
-Step 5. Select "Read from file".
-Step 6. Click "Browse". Go to your home directory (you can do that by click on your username in the sidebar). 
-Step 7. Search for "current.txt". Select this file.
-Step 8. Congratulations, you have a text source for displaying the current sentence. Select "OK" to close the window.
-Step 4 1/2 (Optional). You can do the same thing for the Next Sentence. The procedure is the same from Step 4. The file name you need to search is called "next.txt".
-Step 9. Now, you can control the lyrics in the app.
-- "restart": Restart the lyrics from the beginning.
-- "< previous": jump to the previous sentence.
-- "> next": jump to the next sentence.
+Step 1. Find the song lyrics you would like to use.<br>
+Step 2. Copy these lyrics text and paste it into the text field here.<br>
+Step 3. Apply these lyrics by pressing "apply". You will see the "Current Sentence" and "Next Sentence" session is updated.<br>
+Step 4. In OBS, create a new source "Text (FreeType 2)" for your Current Sentence.<br>
+Step 5. Select "Read from file".<br>
+Step 6. Click "Browse". Go to your home directory (you can do that by click on your username in the sidebar).<br>
+Step 7. Search for "current.txt". Select this file.<br>
+Step 8. Congratulations, you have a text source for displaying the current sentence. Select "OK" to close the window.<br>
+Step 4 1/2 (Optional). You can do the same thing for the Next Sentence. The procedure is the same from Step 4. The file name you need to search is called "next.txt".<br>
+Step 9. Now, you can control the lyrics in the app.<br>
+<ul>
+  <li>"restart": Restart the lyrics from the beginning.</li>
+  <li>"< previous": jump to the previous sentence.</li>
+  <li>"> next": jump to the next sentence.</li>
+</ul>
 
 <h2>How this Works</h2>
 OBS for mac has a test source called "Text (FreeType 2)" that allows you to show the text content read from a text file (txt). This plugin creates two text files, "current.txt" and "next.txt", in the document directory of this app, which is inside your home folder. What we are doing is linking these files into your OBS text sources.
