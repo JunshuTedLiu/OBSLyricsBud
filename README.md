@@ -43,7 +43,7 @@
 <p>I also made a plugin for OBS, OBSTimeBud, that can display the current time in the live stream.</p>
 
 <h2>Current Version</h2>
-<p>1.0 Beta1</p>
+<p>1.0 Beta 1</p>
 
 <h2>Feedback</h2>
 <p>If you have any question or advice, please email me by junshutedliu@gmail.com.</p>
